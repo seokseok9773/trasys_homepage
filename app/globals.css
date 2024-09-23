@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
+/* :root {
+  --foreground-rgb: 255, 255, 255;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
@@ -30,4 +30,14 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+} */
+
+html {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  /* margin: 0px; */
+  /* padding: 0px; */
 }
