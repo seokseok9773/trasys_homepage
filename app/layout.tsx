@@ -1,4 +1,6 @@
+import React from "react";
 import type { Metadata } from "next";
+import StyledComponentsRegistry from "@/lib/registry";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { Providers } from "./providers";
@@ -14,13 +16,15 @@ export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
-}>) {
+}>) { 
   return (
     <html lang="ko">
       <body className={inter.className}>
-        <Providers>
-          {children}
-        </Providers>
+        <StyledComponentsRegistry>
+          <Providers>
+            {children}
+          </Providers>
+        </StyledComponentsRegistry>
       </body>
     </html>
   );
