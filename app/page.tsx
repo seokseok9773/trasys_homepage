@@ -51,7 +51,7 @@ export default function Home() {
       <Link href="http://www.trasys.net/aibus">
         <Image
           src="/image/poster.png"
-          alt="경로를 찾을 수가 없습니다."
+          alt="이미지 경로를 찾을 수가 없습니다."
           width={600}
           height={600}
         />
