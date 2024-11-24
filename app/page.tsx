@@ -61,7 +61,7 @@ export default function Home() {
           <Scroll>
             <Image
               src="/image/RecruitIMG.png"
-              alt="경로를 찾을 수가 없습니다."
+              alt="이미지 경로를 찾을 수가 없습니다."
               width={700}
               height={700}
             />
